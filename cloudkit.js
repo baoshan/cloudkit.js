@@ -3142,7 +3142,7 @@
                     }), d += "\n]"
                 }
                 function F(a, b) {
-                    var c = 14, d = window.location.hostname, e = "", f = new Date;
+                    var c = 14, d = window.location.hostname, e = "/", f = new Date;
                     f.setTime(f.getTime() + 24 * c * 60 * 60 * 1e3), null === b && f.setTime( - 1);
                     var g = "expires=" + f.toUTCString(), h = /\./.test(d) ? d: "";
                     e = "path=" + e, window.document.cookie = a + "=" + b + "; " + g + "; " + h + "; " + e
